@@ -1,0 +1,93 @@
+* {
+  font-family: montserrat;
+}
+.adminpanel {
+  padding: 20px;
+}
+
+.top-panel {
+  width: 90%;
+}
+.adminpanel .postedjobs {
+  width: 18%;
+  border-radius: 50px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  border: 1px solid #dadada;
+  background-color: white !important;
+  padding: 20px 50px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  background: linear-gradient(to left, #1995ad 50%, transparent 50%);
+  background-size: 200% 100%;
+  transition:
+    background-position 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
+}
+
+.adminpanel .postedjobs:hover {
+  background-position: -100% 0;
+  color: white;
+  transform: scale(1.2) !important;
+}
+
+.adminpanel {
+  margin-top: 150px !important;
+}
+
+.adminpanel .text-count {
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .adminpanel .top-panel {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .adminpanel {
+    padding: 0px !important;
+    display: block !important;
+    width: 100%;
+  }
+
+  .adminpanel .top-panel {
+    width: 100% !important;
+    padding: 0px !important;
+    border: 0px !important;
+  }
+
+  .adminpanel .postedjobs {
+    width: 35%;
+    padding: 10px 0px;
+  }
+
+  .adminpanel .text-count {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .adminpanel .postedjobs {
+    width: 35%;
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .adminpanel .postedjobs {
+    width: 35%;
+    padding: 10px 0px;
+  }
+
+  .adminpanel .text-count {
+    font-size: 1.5rem;
+  }
+
+  .adminpanel .text-label {
+    font-size: 0.8rem;
+  }
+}
